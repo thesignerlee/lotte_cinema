@@ -1,0 +1,280 @@
+main { width: 1440px; margin: 70px auto;
+    .campaign_s {margin: 70px auto;
+        > h2 {font-weight: 700; font-size: 1.5rem; margin-bottom: 45px;}
+    }
+    .campaign_s_1 {display: flex; justify-content: space-between; align-items: center; position: relative; padding: 40px;
+        .left {
+            img {width:100%; border-radius: 10px;}
+            .ticket {display: flex; justify-content: center; margin-top: 15px;
+                a { text-align: center; width:210px; line-height:40px; background: #f00; color: #fff; border-radius: 15px; }
+            }
+        }
+        .right {display: flex; flex-flow: column wrap; align-content: center;
+            .right_top {
+                .span_wrap {
+                    > span {color:#ddd; font-size: 0.9rem;}
+                }
+                > h1 {
+                    margin: 25px 0;
+                    color:#fff;
+                    font-size: 2.2rem;
+                }
+                > p {color:#fff;}
+                .link {display: flex; margin: 25px 0; align-items: center;
+                    a {
+                        display: flex; align-items: center; padding: 8px 10px; border-radius: 5px; border: 1px #fff solid;
+                        img {}
+                        span {color:#fff; margin-left: 15px; font-size: 0.8rem;}
+                    }
+                    a:nth-of-type(2) {margin: 0 25px;}
+                    .span_wrap_2 {
+                        > span {color:#fff;}
+                    }
+                }
+            }
+            .right_m {
+                span {color:#fff;
+                    display: flex; flex: row wrap;
+                    em {color:#fff; font-weight: 700;}
+                }
+                span:nth-child(2){margin: 25px 0;}
+            }
+                span:last-child {line-height: 1.5;}
+            .right_m_2 {
+                .list_1 { margin: 25px 0 10px 0;
+                    span:nth-child(1) {
+                        display: inline-block; width: 120px; height: 30px; background: #fff url(../images/special/logo_00.png) no-repeat;
+                        background-position: center; border-radius: 5px;
+                    }
+                    span:nth-child(2) {
+                        display: inline-block; width: 120px; height: 30px; background: #fff url(../images/special/logo_01.png) no-repeat;
+                        background-position: center; border-radius: 5px;
+                    }
+                    span:nth-child(3) {
+                        display: inline-block; width: 120px; height: 30px; background: #fff url(../images/special/logo_02.png) no-repeat;
+                        background-position: center; border-radius: 5px;
+                    }
+                    span:nth-child(4) {
+                        display: inline-block; width: 120px; height: 30px; background: #fff url(../images/special/logo_03.png) no-repeat;
+                        background-position: center; border-radius: 5px;
+                    }
+                }
+                .list_2 { margin: 0px 0 25px 0;
+                    span:nth-child(1) {
+                        display: inline-block; width: 120px; height: 30px; background: #fff url(../images/special/logo_04.png) no-repeat;
+                        background-position: center; border-radius: 5px;
+                    }
+                    span:nth-child(2) {
+                        display: inline-block; width: 120px; height: 30px; background: #fff url(../images/special/logo_05.png) no-repeat;
+                        background-position: center; border-radius: 5px;
+                    }
+                    span:nth-child(3) {
+                        display: inline-block; width: 120px; height: 30px; background: #fff url(../images/special/logo_06.png) no-repeat;
+                        background-position: center; border-radius: 5px;
+                    }
+                    span:nth-child(4) {
+                        display: inline-block; width: 120px; height: 30px; background: #fff url(../images/special/logo_07.png) no-repeat;
+                        background-position: center; border-radius: 5px;
+                    }
+                }
+            }
+            .right_btm {display: flex; 
+                > div {display: flex; align-items: start; flex-flow: column wrap; text-align: start;
+                    > p {color:#fff;}
+                    > .wrap {margin-top: 10px; display: flex; align-items: center;
+                        img {}
+                        span {color:#fff; margin-left: 10px; font-size: 1.5rem;}
+                    }
+                }
+                .score {
+                    p {}
+                    .wrap {
+                        img {}
+                        span {}
+                    }
+                }
+                .ticket {margin: 0 25px;
+                    p {}
+                    .wrap {
+                        img {}
+                        span {}
+                    }
+                }
+                .seat {
+                    p {}
+                    .wrap {
+                        img {}
+                        span {
+                            em {}
+                        }
+                    }
+                }
+            }
+        }
+        .bg_main {width: 100%;
+            position: absolute;
+            top: 0; left: 0;
+            z-index: -1;
+            img {width:100%;}
+        }
+    }
+    .campaign_s_2 { 
+        h2 {}
+        .actors_1 {width: 760px; margin: 0 auto;
+            h3 {width: 760px; padding-left:15px; margin-top: 50px; font-weight: 700; font-size: 1.1rem; margin-bottom: 25px; background: #ddd; line-height: 50px;}
+            .producer {
+                h3 {}
+                .produ {display: flex;
+                    img {}
+                    .span_wrap {
+                        margin-left: 25px;
+                        display: flex; flex-flow: column wrap;
+                        span {
+                            line-height: 1.5;
+                        }
+                        span:last-child {
+                            font-weight: 700; color: #aaa;
+                        }
+                    }
+        }
+            }
+            .actors {
+                h3 {}
+                .list {display: flex; justify-content: space-between; width: 720px;
+                    margin-bottom: 70px;
+                    .actor {display: flex; justify-content: space-between;
+                        img {
+                        }
+                        .span_wrap {
+                            margin-left: 25px;
+                            display: flex; flex-flow: column wrap;
+                            span {
+                            }
+                            span:last-child {font-weight: 700; color: #aaa; margin-top: 10px;}
+                        }
+                    }
+                }
+                .list:nth-of-type(3){
+                    .actor:nth-child(2) {
+                        margin-right: 17px;
+                    }
+                }
+                .list:nth-of-type(4){
+                    .actor:nth-child(2) {
+                        margin-right: 4px;
+                    }
+                }
+            }
+        }
+    }
+    .campaign_s_3 {
+        h2 {}
+        .big_s {width:80%;
+            .swiper-wrapper {
+                .swiper-slide {
+                    video {width: 100%;}
+                }
+            }
+            .swiper-button-next {}
+            .swiper-button-prev {}
+            .swiper-button-next:after, .swiper-button-prev:after {
+                content: 'next';
+                display: none;
+            }
+        }
+        .thum_s {width:80%;
+            .swiper-wrapper {
+                .swiper-slide {
+                    video {}
+                }
+            }
+        }
+    }
+    .campaign_s_4 {
+        .project_view {
+            position:fixed; left:0; top:0; z-index: 999; background:rgba(0,0,0,0.7);
+            width:100%; height:100vh;
+            cursor:pointer;
+            .contents {
+                width:600px; margin: 50px auto;
+                height:100vh;
+                img {width:100%;}
+            }
+        }
+        .project_view2 {
+            position:fixed; left:0; top:0; z-index: 999; background:rgba(0,0,0,0.7);
+            width:100%; height:100vh;
+            cursor:pointer;
+            .contents {
+                position:absolute;
+                left:25%; top:20%;
+                width:600px; margin: 50px auto;
+                height:100vh;
+                img {width:150%;}
+            }
+        }
+        h2 {}
+        h2:last-of-type {margin-top: 50px;}
+        .swiper_3 {width:517px; height: 727px;
+            .swiper-wrapper {
+                .swiper-slide {
+                    img {}
+                }
+            }
+            .swiper-button-next {}
+            .swiper-button-prev {}
+            .swiper-button-next:after, .swiper-button-prev:after {
+                content: 'next';
+                display: none;
+            }
+            .swiper-pagination {}
+        }
+        .swiper_4 {width:727px; height: 405px;
+            .swiper-wrapper {
+                .swiper-slide {
+                    img {}
+                }
+            }
+            .swiper-button-next {}
+            .swiper-button-prev {}
+            .swiper-button-next:after, .swiper-button-prev:after {
+                content: 'next';
+                display: none;
+            }
+            .swiper-pagination {}
+        }
+    }
+    .campaign_s_5 { background: #eee; border-radius: 15px; padding: 25px;
+        .h2 {}
+        .gwanram {display: flex; justify-content: space-between;
+            .g_left {
+                p {line-height: 1.5;
+                    em {font-weight: 800;}
+                }
+            }
+            .g_right {display: flex; align-items: center;
+                > a { width: 80px; background: #aaa; line-height: 50px; text-align: center; border-radius: 3px; color:#fff;}
+                > a:nth-of-type(1) {margin: 0 30px; background: #fb4357;}
+                .star {
+                    a {width: 12px; height: 23px; display: inline-block; background: url(../images/detail/star_00.png);
+                        img {}
+                    }
+                    a:nth-child(even){margin-left: -6px; width: 12px; height: 23px; display: inline-block; background: url(../images/detail/star_01.png);}
+                    
+                }
+            }
+        }
+    }
+    .campaign_s_6 {width: 720px;
+        >ul{border: 1px solid #ccc; padding: 25px; border-radius: 10px;
+            >li{margin-left: 15px;
+                span{
+                    margin-bottom: 20px; border-bottom: #ddd 1px solid; display: block; padding-bottom: 5px; font-weight: 700;
+                }
+                >ul{
+                    >li {list-style-type: disc; line-height: 1.5; font-size: 0.9rem;}
+                }
+            }
+        }
+    }
+}

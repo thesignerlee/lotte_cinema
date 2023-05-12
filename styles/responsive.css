@@ -1,0 +1,52 @@
+@media screen and (max-width:1440px) {
+    /* 메인페이지 */
+    header {width:100%;}
+    main {width:100%;}
+    footer {width: 100%;}
+    header >.nav_m {display: none;}
+}/*1440*/
+@media screen and (max-width:1024px) {
+    /* header */
+header nav {display:none;}
+header .lnb .hamburger {display: inline-block;}
+header > .m_nav {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+header .m_nav > ul > li {margin-bottom: 5px;}
+header .m_nav > ul > li:first-child {margin-top: 10px;}
+header .m_nav > ul > li:last-child {margin-bottom: 0}
+header .m_nav > ul > li > .sub {}
+/* footer */
+footer .f_m > .f_m_b {display:none;}
+footer .f_m > .award img:first-child {display: none;}
+footer .f_m > .award img:last-child {display: none;}
+/* special */
+.campaign3 .special_logo a:first-child {display: none;}
+.campaign3 .special_logo a:last-child {display: none;}
+/* store */
+.campaign5 .snack {display:none;}
+.campaign5 .package {margin-right: 10px;}
+.campaign5 .photo {margin-left: 10px;}
+/* alert */
+.campaign6 .navi .navi_in:first-child {display: none;}
+.campaign6 .navi .navi_in:last-child {display: none;}
+.campaign6 .navi .navi_in {width: auto;}
+/* 영화 상세페이지 */
+.campaign_s_1 .right {margin-left: 30px;}
+.campaign_s_1 .bg_main img {height:650px;}
+.campaign_s_1 .right .right_top .link .span_wrap_2 {display:none;}
+.campaign_s_1 .right .right_top .link .span_wrap_2 {display:none;}
+
+}
+
+/*1024*/
+@media screen and (max-width:864px) {
+    .campaign1 .swiper1 {display: none;}
+    .campaign1 .m_swiper {display: block;}
+    /* 영화 상세페이지 */
+    .campaign_s_5 .gwanram .g_left p {font-size: 0.9rem;}
+    .campaign_s_6 {width:100%;}
+}
+/* 864 */

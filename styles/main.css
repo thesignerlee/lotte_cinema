@@ -1,0 +1,431 @@
+.active {
+  background: #aaa;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+main {
+  width: 1440px;
+  margin: 70px auto;
+  overflow: hidden;
+}
+main .campaign {
+  margin: 50px 0;
+}
+main .campaign h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+main .campaign1 {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 50px 0;
+  background: #F5E7CC;
+}
+main .campaign1 > span {
+  font-size: 2.5rem;
+  display: inline-block;
+  padding-bottom: 15px;
+  border-bottom: 2px #222 solid;
+}
+main .campaign1 .swiper1 {
+  margin: 50px 0 0 0;
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide a:first-child {
+  display: inline-block;
+  width: 300px;
+  height: 420px;
+  position: relative;
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide a:first-child img {
+  transition: all 0.2s;
+  width: 100%;
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide a:first-child .img_bg {
+  transition: all 0.2s;
+  position: absolute;
+  bottom: -10px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 100%);
+  width: 100%;
+  height: 80px;
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide a:first-child .img_bg span {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  transform: skewX(-10deg);
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide .point {
+  margin: 15px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide .point .point_left {
+  margin-right: 20px;
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide .point .point_left span::after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: #aaa;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  top: 0px;
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide > a:last-child {
+  width: 210px;
+  line-height: 40px;
+  background: #f00;
+  color: #fff;
+  display: inline-block;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+main .campaign1 .swiper1 .swiper-wrapper .swiper-slide > a:last-child:hover {
+  box-shadow: 0 0 5px #222;
+}
+main .campaign1 .swiper1 .swiper-button-next {
+  transform: translateY(-60px);
+}
+main .campaign1 .swiper1 .swiper-button-prev {
+  transform: translateY(-60px);
+}
+main .campaign1 .swiper1 .swiper-button-next:after, main .campaign1 .swiper1 .swiper-button-prev:after {
+  content: "next";
+  display: none;
+}
+main .m_swiper {
+  display: none;
+  margin: 50px 0 0 0;
+}
+main .m_swiper .swiper-wrapper .swiper-slide a:first-child {
+  display: inline-block;
+  width: 300px;
+  height: 420px;
+  position: relative;
+}
+main .m_swiper .swiper-wrapper .swiper-slide a:first-child img {
+  transition: all 0.2s;
+  width: 100%;
+}
+main .m_swiper .swiper-wrapper .swiper-slide a:first-child .img_bg {
+  transition: all 0.2s;
+  position: absolute;
+  bottom: -10px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent 100%);
+  width: 100%;
+  height: 80px;
+}
+main .m_swiper .swiper-wrapper .swiper-slide a:first-child .img_bg span {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  transform: skewX(-10deg);
+}
+main .m_swiper .swiper-wrapper .swiper-slide .point {
+  margin: 15px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .m_swiper .swiper-wrapper .swiper-slide .point .point_left {
+  margin-right: 20px;
+}
+main .m_swiper .swiper-wrapper .swiper-slide .point .point_left span::after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: #aaa;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  top: 0px;
+}
+main .m_swiper .swiper-wrapper .swiper-slide > a:last-child {
+  width: 210px;
+  line-height: 40px;
+  background: #f00;
+  color: #fff;
+  display: inline-block;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+main .m_swiper .swiper-wrapper .swiper-slide > a:last-child:hover {
+  box-shadow: 0 0 5px #222;
+}
+main .m_swiper .swiper-button-next {
+  transform: translateY(-60px);
+}
+main .m_swiper .swiper-button-prev {
+  transform: translateY(-60px);
+}
+main .m_swiper .swiper-button-next:after, main .m_swiper .swiper-button-prev:after {
+  content: "next";
+  display: none;
+}
+main .campaign2 {
+  margin: 0;
+}
+main .campaign2 a img {
+  width: 100%;
+}
+main .campaign3 .special_logo {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+main .campaign3 .special_logo a {
+  margin: 0 15px;
+}
+main .campaign3 .special_logo a img {
+  transition: all 0.2s;
+  width: 100%;
+}
+main .campaign3 .special_logo a:first-child {
+  margin-left: 0;
+}
+main .campaign3 .special_logo a:last-child {
+  margin-right: 0;
+}
+main .campaign3 .special_logo a:hover img {
+  transform: translateY(-40px);
+}
+main .campaign3 .special_btm {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+main .campaign3 .special_btm .big {
+  width: 500px;
+  height: 300px;
+  margin-right: 40px;
+}
+main .campaign3 .special_btm .big img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+main .campaign3 .special_btm .big:hover img {
+  transform: scale(1.05);
+}
+main .campaign3 .special_btm .list {
+  border: 1px solid #000;
+  overflow-y: scroll;
+  padding: 25px;
+  width: 370px;
+  height: 300px;
+}
+main .campaign3 .special_btm .list .special_list {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px #000 solid;
+}
+main .campaign3 .special_btm .list .special_list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .campaign3 .special_btm .list .special_list:first-child {
+  margin: 0px;
+}
+main .campaign4 .flex {
+  align-items: center;
+  display: flex;
+}
+main .campaign4 .flex .event_left .event_left_t {
+  display: flex;
+}
+main .campaign4 .flex .event_left .event_left_t a:first-child {
+  width: 250px;
+  height: 150px;
+  display: inline-block;
+  background: url(../images/event/event_00.jpg) no-repeat;
+  background-size: cover;
+  margin: 15px;
+  border-radius: 15px;
+}
+main .campaign4 .flex .event_left .event_left_t a:first-child img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+main .campaign4 .flex .event_left .event_left_t a:last-child {
+  width: 340px;
+  height: 150px;
+  display: inline-block;
+  margin: 15px;
+}
+main .campaign4 .flex .event_left .event_left_t a:last-child img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+main .campaign4 .flex .event_left .event_left_t a:hover {
+  transform: scale(1.1);
+}
+main .campaign4 .flex .event_left .event_left_t a {
+  transition: all 0.2s;
+}
+main .campaign4 .flex .event_left .event_left_btm {
+  display: flex;
+}
+main .campaign4 .flex .event_left .event_left_btm a:first-child {
+  width: 340px;
+  height: 240px;
+  display: inline-block;
+  margin: 15px;
+}
+main .campaign4 .flex .event_left .event_left_btm a:first-child img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+main .campaign4 .flex .event_left .event_left_btm a:last-child {
+  width: 250px;
+  height: 240px;
+  display: inline-block;
+  background: url(../images/event/event_03.jpg) no-repeat;
+  background-size: cover;
+  margin: 15px;
+  border-radius: 15px;
+  background-position-y: -5px;
+}
+main .campaign4 .flex .event_left .event_left_btm a:last-child img {
+  width: 100%;
+  border-radius: 15px;
+}
+main .campaign4 .flex .event_left .event_left_btm a:hover {
+  transform: scale(1.1);
+}
+main .campaign4 .flex .event_left .event_left_btm a {
+  transition: all 0.2s;
+}
+main .campaign4 .flex .event_right .swiper3 .swiper-wrapper .swiper-slide {
+  width: 330px;
+  height: 430px;
+}
+main .campaign4 .flex .event_right .swiper3 .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+main .campaign5 .flex {
+  display: flex;
+  justify-content: center;
+}
+main .campaign5 .flex > div {
+  border: 3px solid #ccc;
+  padding: 25px;
+  width: 370px;
+  height: 440px;
+  border-radius: 15px;
+}
+main .campaign5 .flex > div a {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .campaign5 .flex > div a img {
+  width: 100px;
+  height: 100px;
+  border: #666 2px solid;
+}
+main .campaign5 .flex > div a span {
+  line-height: 1.5;
+  display: block;
+  transition: all 0.3s;
+}
+main .campaign5 .flex > div a span em {
+  font-weight: 700;
+}
+main .campaign5 .flex > div a:hover span {
+  color: #f00;
+}
+main .campaign5 .flex .package a img {
+  width: 100px;
+  height: 100px;
+}
+main .campaign5 .flex .package a span {
+  margin-right: 75px;
+}
+main .campaign5 .flex .snack {
+  margin: 0 25px;
+}
+main .campaign5 .flex .snack a img {
+  width: 100px;
+  height: 100px;
+}
+main .campaign5 .flex .snack a:nth-of-type(1) span {
+  margin-right: 108px;
+}
+main .campaign5 .flex .snack a:nth-of-type(2) span {
+  margin-right: 118px;
+}
+main .campaign5 .flex .snack a:nth-of-type(3) span {
+  margin-right: 75px;
+}
+main .campaign5 .flex .photo a:nth-of-type(2) span {
+  margin-right: 53px;
+}
+main .campaign5 .flex .photo a:nth-of-type(3) span {
+  margin-right: 20px;
+}
+main .campaign6 .navi {
+  display: flex;
+  justify-content: center;
+}
+main .campaign6 .navi .navi_in {
+  background: #eee;
+  width: 110px;
+  height: 130px;
+  padding: 25px;
+  margin: 0 15px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+main .campaign6 .navi .navi_in a {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 10px;
+}
+main .campaign6 .navi .navi_in a img {
+  width: 36px;
+  height: 36px;
+}
+main .campaign6 .navi .navi_in a span {
+  margin-top: 20px;
+  white-space: nowrap;
+}
+main .campaign6 .navi .navi_in:first-child {
+  margin-left: 0;
+}
+main .campaign6 .navi .navi_in:last-child {
+  margin-right: 0;
+}
+main .campaign6 .navi .navi_in:nth-child(5) a img {
+  width: 50px;
+}
+main .campaign6 .navi .navi_in:hover {
+  background: #f00;
+}
+main .campaign6 .navi .navi_in:hover span {
+  color: #fff;
+}
+main .campaign7 {
+  height: 200px;
+}
+main .campaign7 img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */

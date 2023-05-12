@@ -1,0 +1,310 @@
+.active {background: #aaa; border-radius: 10px; padding: 10px;}
+
+main {width: 1440px; margin: 70px auto; overflow: hidden;
+    .campaign { margin: 50px 0;
+        h2 {
+            font-size: 2\rem;
+            margin-bottom: 25px;
+        }
+    }
+    .campaign1 {text-align: center;
+        margin-bottom: 0;
+        padding: 50px 0;
+        background: #F5E7CC;
+        >span {font-size: 2.5rem;
+            display: inline-block;
+            padding-bottom: 15px;
+        border-bottom: 2px #222 solid;
+        }
+        .swiper1 {margin: 50px 0 0 0;
+            .swiper-wrapper {
+                .swiper-slide {
+                    a:first-child {
+                        display: inline-block; width: 300px; height: 420px;position: relative;
+                        img {
+                            transition: all 0.2s;
+                            width:100%;
+                        }
+                        .img_bg {
+                            transition: all 0.2s;
+                            position: absolute; bottom: -10px;
+                            background: linear-gradient(0deg, rgba(0,0,0,0.8), transparent 100%); width: 100%; height: 80px;
+                            span {font-weight:700; font-size: 3rem;color: #fff; position: absolute; left: 5px; bottom: 5px;
+                            transform: skewX(-10deg);
+                            }
+                        }
+                    }
+                    .point {
+                        margin: 15px 0 30px 0;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .point_left {margin-right: 20px;
+                            img {}
+                            span {}
+                            span::after {content:''; width:1px; height: 12px; background: #aaa; display: inline-block; position: relative; left: 10px; top: 0px;}
+                        }
+                        > span {}
+                    }
+                    > a:last-child {
+                        width:210px; line-height:40px; background: #f00; color: #fff; display: inline-block; border-radius: 15px; margin-bottom: 5px;
+                    }
+                    > a:last-child:hover {
+                        box-shadow: 0 0 5px #222;
+                    }
+                }
+            }
+            .swiper-button-next {transform: translateY(-60px);
+                img {}
+            }
+            .swiper-button-prev {transform: translateY(-60px);
+                img {}
+            }
+            .swiper-button-next:after, .swiper-button-prev:after {
+                content: 'next';
+                display: none;
+            }
+        }
+    }
+    .m_swiper {display: none; margin: 50px 0 0 0;
+        .swiper-wrapper {
+            .swiper-slide {
+                a:first-child {
+                    display: inline-block; width: 300px; height: 420px;position: relative;
+                    img {
+                        transition: all 0.2s;
+                        width:100%;
+                    }
+                    .img_bg {
+                        transition: all 0.2s;
+                        position: absolute; bottom: -10px;
+                        background: linear-gradient(0deg, rgba(0,0,0,0.8), transparent 100%); width: 100%; height: 80px;
+                        span {font-weight:700; font-size: 3rem;color: #fff; position: absolute; left: 5px; bottom: 5px;
+                        transform: skewX(-10deg);
+                        }
+                    }
+                }
+                .point {
+                    margin: 15px 0 30px 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .point_left {margin-right: 20px;
+                        img {}
+                        span {}
+                        span::after {content:''; width:1px; height: 12px; background: #aaa; display: inline-block; position: relative; left: 10px; top: 0px;}
+                    }
+                    > span {}
+                }
+                > a:last-child {
+                    width:210px; line-height:40px; background: #f00; color: #fff; display: inline-block; border-radius: 15px; margin-bottom: 5px;
+                }
+                > a:last-child:hover {
+                    box-shadow: 0 0 5px #222;
+                }
+            }
+        }
+        .swiper-button-next {transform: translateY(-60px);
+            img {}
+        }
+        .swiper-button-prev {transform: translateY(-60px);
+            img {}
+        }
+        .swiper-button-next:after, .swiper-button-prev:after {
+            content: 'next';
+            display: none;
+        }
+    }
+    // 배너
+    .campaign2 {margin: 0; 
+        a {
+            img {width:100%;}
+        }
+    }
+    //스페셜관
+    .campaign3 {
+        h2 {}
+        .special_logo {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            a {margin: 0 15px;
+                img {transition: all 0.2s;
+                width: 100%;
+                }
+            }
+            a:first-child {
+                margin-left: 0;
+            }
+            a:last-child {
+                margin-right: 0;
+            }
+            a:hover img{
+                transform: translateY(-40px);
+            }
+        }
+        .special_btm {display: flex; justify-content: center; margin-top: 30px;
+            .big {
+                width:500px; height: 300px; margin-right: 40px;
+                img {width: 100%; height: 100%; border-radius: 15px;
+                transition: all 0.5s;
+                }
+            }
+            .big:hover img {transform: scale(1.05);}
+            .list { border: 1px solid #000; overflow-y: scroll; padding: 25px; width: 370px; height: 300px;
+                .special_list{ margin-top: 10px; padding-bottom: 10px; border-bottom: 1px #000 solid;
+                    a {display: flex; justify-content: space-between; align-items: center;
+                        img {}
+                        span {}
+                    }
+                }
+                .special_list:first-child {margin: 0px;}
+            }
+        }
+    }
+    //이벤트
+    .campaign4 {
+        h2 {}
+        .flex { align-items: center; display: flex;
+            .event_left {
+                .event_left_t {display: flex; 
+                    a:first-child {width:250px; height: 150px; display: inline-block; background: url(../images/event/event_00.jpg) no-repeat;
+                        background-size: cover; margin: 15px; border-radius: 15px;
+                        img {width:100%; height: 100%; border-radius: 15px;}
+                    }
+                    a:last-child {width:340px; height: 150px;display: inline-block;  margin: 15px;
+                        img {width:100%; height: 100%; border-radius: 15px;}
+                    }
+                    a:hover{transform: scale(1.1);}
+                    a{transition: all 0.2s;}
+                }
+                .event_left_btm {display: flex; 
+                    a:first-child {width:340px; height: 240px;display: inline-block;  margin: 15px;
+                        img {width:100%; height: 100%; border-radius: 15px;}
+                    }
+                    a:last-child {width:250px; height: 240px; display: inline-block; background: url(../images/event/event_03.jpg) no-repeat;
+                        background-size: cover; margin: 15px; border-radius: 15px; background-position-y: -5px;
+                        img {width:100%;  border-radius: 15px;}
+                    }
+                    a:hover{transform: scale(1.1);}
+                    a{transition: all 0.2s;}
+                }
+            }
+            .event_right {
+                .swiper3 {
+                    .swiper-wrapper {
+                        .swiper-slide {width:330px; height: 430px;
+                            a{
+                                img {width:100%; height: 100%; border-radius: 15px;}
+                            }
+                        }
+                    }
+                    .swiper-pagination {}
+                }
+            }
+        }
+    }
+    //스토어
+    .campaign5 {
+        h2 {}
+        .flex {
+            display: flex; justify-content: center;
+            > div {border: 3px solid #ccc; padding: 25px; width:370px; height:440px; border-radius: 15px;
+                h3 {}
+                a {
+                    margin-top: 25px;
+                    display: flex; justify-content: space-between; align-items: center;
+                    img {width:100px; height: 100px; border: #666 2px solid;}
+                    span {
+                        line-height: 1.5;
+                        display: block;
+                        transition: all 0.3s;
+                        em {font-weight: 700;}
+                    }
+                }
+                a:hover span {
+                    color:#f00;
+                }
+            }
+            .package {
+                h3 {}
+                a {
+                    img {width:100px; height: 100px;}
+                    span {margin-right: 75px;
+                        em {}
+                    }
+                }
+            }
+            .snack { margin: 0 25px;
+                h3 {}
+                a {
+                    img {width:100px; height: 100px;}
+                    span {
+                        em {}
+                    }
+                }
+                a:nth-of-type(1){
+                    span {
+                        margin-right: 108px;
+                    }
+                }
+                a:nth-of-type(2){
+                    span {
+                        margin-right: 118px;
+                    }
+                }
+                a:nth-of-type(3){
+                    span {
+                        margin-right: 75px;
+                    }
+                }
+            }
+            .photo {
+                h3 {}
+                a {
+                    img {}
+                    span {
+                        em {}
+                    }
+                }
+                a:nth-of-type(2){
+                    span {
+                        margin-right: 53px;
+                    }
+                }a:nth-of-type(3){
+                    span {
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+    //안내버튼
+    .campaign6 {
+        .navi {display: flex; justify-content: center;
+            .navi_in {background: #eee; width:110px; height:130px; padding: 25px;  margin:0 15px; border-radius: 15px;
+                transition: all 0.3s;
+                a {display: flex; flex-flow:column nowrap; align-items: center;margin-top: 10px;
+                    img {width:36px; height: 36px;}
+                    span {margin-top: 20px; white-space: nowrap;}
+                }
+            }
+            .navi_in:first-child {margin-left:0;}
+            .navi_in:last-child {margin-right:0;}
+            .navi_in:nth-child(5)
+            a{
+                img{width:50px;}
+            }
+            .navi_in:hover {
+                background: #f00;
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    //홍보배너
+    .campaign7 {height: 200px;
+        img {width:100%; height: 100%;}
+    }
+}

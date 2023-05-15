@@ -173,6 +173,7 @@ main .m_swiper .swiper-button-next:after, main .m_swiper .swiper-button-prev:aft
 }
 main .campaign2 {
   margin: 0;
+  width: 1920px;
 }
 main .campaign2 a img {
   width: 100%;

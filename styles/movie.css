@@ -1,22 +1,30 @@
 main {
   width: 1440px;
-  margin: 70px auto;
+  margin: 160px auto 70px;
   overflow-x: hidden;
 }
 main > h1 {
   font-size: 2rem;
 }
-main .tab {
+main .tab_m {
   text-align: center;
+  margin: 50px 0;
 }
-main .tab a {
-  padding-bottom: 3px;
+main .tab_m a {
+  padding: 5px;
+  transition: all 0.07s;
 }
-main .tab .active {
+main .tab_m a:hover {
+  border-bottom: 3px #aaa solid;
+}
+main .tab_m .active {
   border-bottom: 3px #f00 solid;
 }
-main .tab a:nth-child(2) {
+main .tab_m a:nth-child(2) {
   margin: 0 30px;
+}
+main .tab_m a:nth-child(3) {
+  margin-right: 30px;
 }
 main .campaign_d {
   margin: 50px auto;
@@ -30,6 +38,9 @@ main .campaign_d .movie_wrap {
 }
 main .campaign_d .movie_wrap .movie {
   margin: 35px 0;
+}
+main .campaign_d_1 .movie_wrap {
+  margin: 0 auto;
 }
 main .campaign_d_1 .movie_wrap .movie {
   display: flex;
@@ -103,9 +114,13 @@ main .campaign_d_1 .movie_wrap .movie .point .point_left > span::after {
 }
 main .campaign_d_1 .movie_wrap .movie_ad {
   margin-top: 105px;
+  padding: 0 50px;
 }
 main .campaign_d_1 .movie_wrap .movie_ad a img {
-  width: 120%;
+  width: 127%;
+}
+main .campaign_d_1 .movie_wrap_4 {
+  margin: 0;
 }
 main .campaign_d_1 > a {
   margin: 0 auto;
@@ -117,16 +132,16 @@ main .campaign_d_1 > a {
   justify-content: center;
   padding: 10px;
 }
-main .bnr {
+main .campaign_d_1 .bnr {
   width: 100%;
-  margin: 0 auto;
+  margin: 50px auto 0;
 }
-main .bnr a {
+main .campaign_d_1 .bnr a {
   display: flex;
   justify-content: center;
   height: 200px;
 }
-main .bnr a img {
+main .campaign_d_1 .bnr a img {
   max-width: 100%;
   height: auto;
 }
@@ -153,7 +168,6 @@ main .campaign_d_2 .may > .movie_wrap .movie > a:nth-of-type(1) .img_bg {
 }
 main .campaign_d_2 .may > .movie_wrap .movie > a:nth-of-type(1) .img_bg span {
   font-weight: 700;
-  font-size: 2rem;
   color: #fff;
   position: absolute;
   left: 5px;
@@ -194,6 +208,7 @@ main .campaign_d_2 .may > .movie_wrap .movie .point .point_left > span::after {
 }
 main .campaign_d_2 .may > .movie_wrap .movie_ad {
   margin-top: 105px;
+  padding: 0 50px;
 }
 main .campaign_d_2 .may > .movie_wrap .movie_ad a img {
   width: 120%;
@@ -221,7 +236,6 @@ main .campaign_d_2 .june > .movie_wrap .movie > a:nth-of-type(1) .img_bg {
 }
 main .campaign_d_2 .june > .movie_wrap .movie > a:nth-of-type(1) .img_bg span {
   font-weight: 700;
-  font-size: 2rem;
   color: #fff;
   position: absolute;
   left: 5px;
@@ -260,12 +274,6 @@ main .campaign_d_2 .june > .movie_wrap .movie .point .point_left > span::after {
   left: 10px;
   top: 0px;
 }
-main .campaign_d_2 .june > .movie_wrap .movie_ad {
-  margin-top: 105px;
-}
-main .campaign_d_2 .june > .movie_wrap .movie_ad a img {
-  width: 120%;
-}
 main .campaign_d_2 > .movie_wrap .movie {
   display: flex;
   flex-flow: column wrap;
@@ -296,7 +304,6 @@ main .campaign_d_2 > .movie_wrap .movie > a:nth-of-type(2) .img_bg {
 }
 main .campaign_d_2 > .movie_wrap .movie > a:nth-of-type(2) .img_bg span {
   font-weight: 700;
-  font-size: 2rem;
   color: #fff;
   position: absolute;
   left: 5px;
@@ -337,9 +344,10 @@ main .campaign_d_2 > .movie_wrap .movie .point .point_left > span::after {
 }
 main .campaign_d_2 > .movie_wrap .movie_ad {
   margin-top: 105px;
+  padding: 0 45px;
 }
 main .campaign_d_2 > .movie_wrap .movie_ad a img {
-  width: 120%;
+  width: 127%;
 }
 main .campaign_d_3 .artwork {
   display: flex;
@@ -355,6 +363,7 @@ main .campaign_d_3 .artwork .img_1 {
   height: 500px;
   background: url(../images/plan/bg_exhib_01_1.png) no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 25px;
   position: relative;
 }
@@ -377,7 +386,9 @@ main .campaign_d_3 .artwork .img_1 > a {
 main .campaign_d_3 .artwork .img_1 .swiper {
   position: absolute;
   top: 200px;
-  left: 8%;
+  left: 0%;
+  width: 432px;
+  height: 500px;
 }
 main .campaign_d_3 .artwork .img_1 .swiper .swiper-wrapper .swiper-slide {
   display: flex;
@@ -411,6 +422,10 @@ main .campaign_d_3 .artwork .img_1 .swiper .swiper-wrapper .swiper-slide .point 
   left: 10px;
   top: 0px;
 }
+main .campaign_d_3 .artwork .img_1 .swiper .swiper-button-next:after, main .campaign_d_3 .artwork .img_1 .swiper .swiper-button-prev:after {
+  content: "next";
+  display: none;
+}
 main .campaign_d_3 .artwork .img_2 {
   display: flex;
   flex-flow: column wrap;
@@ -422,6 +437,7 @@ main .campaign_d_3 .artwork .img_2 {
   position: relative;
   padding: 25px;
   height: 500px;
+  background-position: center;
 }
 main .campaign_d_3 .artwork .img_2 > span {
   font-weight: 700;
@@ -469,6 +485,7 @@ main .campaign_d_3 .artwork .img_3 {
   position: relative;
   padding: 25px;
   height: 500px;
+  background-position: center;
 }
 main .campaign_d_3 .artwork .img_3 > span {
   font-weight: 700;
@@ -507,16 +524,16 @@ main .campaign_d_3 .artwork .img_3 .img_bg span:first-child {
   margin-top: 200px;
   line-height: 2;
 }
-main .bnr_2 {
+main .campaign_d_3 .bnr_2 {
   width: 100%;
   margin: 150px auto 0;
 }
-main .bnr_2 a {
+main .campaign_d_3 .bnr_2 a {
   display: flex;
   justify-content: center;
   height: 200px;
 }
-main .bnr_2 a img {
+main .campaign_d_3 .bnr_2 a img {
   max-width: 100%;
   height: auto;
 }
@@ -537,9 +554,158 @@ main .campaign_d_4 .d_wrap video {
   border-bottom: 1px #222 solid;
 }
 main .campaign_d_4 .d_wrap .intro_span {
-  padding: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  width: 720px;
+  margin: 0 auto;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_top p {
+  font-weight: 800;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_top span {
+  line-height: 1.5;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_btm {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_btm .left p {
+  font-weight: 800;
+  line-height: 2;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_btm .left dl dt {
+  line-height: 1.5;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_btm .left dl dd {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_btm .right p {
+  font-weight: 800;
+  line-height: 2;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_btm .right span {
+  display: block;
+  line-height: 1.2;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_info p {
+  line-height: 2;
+  font-size: 0.9rem;
+}
+main .campaign_d_4 .d_wrap .intro_span .span_info span {
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
 main .campaign_d_4 .d_wrap .swiperd_4 {
-  width: 600px;
-  height: 880px;
+  width: 720px;
+  margin: 0 auto;
+  margin-top: 70px;
+  position: relative;
+  height: 1650px;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g img {
+  transform: translateX(55px);
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap {
+  position: absolute;
+  top: 900px;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap .span_wrap_t {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap .span_wrap_t .left_mo {
+  width: 60%;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap .span_wrap_t .left_mo p {
+  font-weight: 800;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap .span_wrap_t .left_mo span {
+  line-height: 1.5;
+  margin-top: 30px;
+  display: block;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap .span_wrap_t .right_mo p {
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap .span_wrap_t .right_mo dl dt {
+  font-weight: 800;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap .span_wrap_t .right_mo dl dd {
+  margin: 10px 0;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g .info_wrap > p {
+  margin-top: 20px;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g1 .info_wrap h1 {
+  color: #4369e4;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g1 .info_wrap .span_wrap_t .right_mo p {
+  color: #4369e4;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g1 .info_wrap .span_wrap_t .right_mo dl dt {
+  color: #4369e4;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g1 .info_wrap .span_wrap_t .right_mo dl dd {
+  color: #4369e4;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g2 .info_wrap h1 {
+  color: #b10c0c;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g2 .info_wrap .span_wrap_t .right_mo p {
+  color: #b10c0c;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g2 .info_wrap .span_wrap_t .right_mo dl dt {
+  color: #b10c0c;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g2 .info_wrap .span_wrap_t .right_mo dl dd {
+  color: #b10c0c;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g3 .info_wrap h1 {
+  color: #e92867;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g3 .info_wrap .span_wrap_t .right_mo p {
+  color: #e92867;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g3 .info_wrap .span_wrap_t .right_mo dl dt {
+  color: #e92867;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-wrapper .slide_g3 .info_wrap .span_wrap_t .right_mo dl dd {
+  color: #e92867;
+}
+main .campaign_d_4 .d_wrap .swiperd_4 .swiper-button-next:after, main .campaign_d_4 .d_wrap .swiperd_4 .swiper-button-prev:after {
+  content: "next";
+  display: none;
+}
+main .campaign_d_4 .d_wrap .caution {
+  padding: 25px;
+  border: 1px solid #000;
+  width: 720px;
+  margin: 0 auto 50px;
+}
+main .campaign_d_4 .d_wrap .caution p {
+  line-height: 1.5;
+  font-weight: 800;
+}
+main .campaign_d_4 .d_wrap .caution dl {
+  margin-top: 12px;
+}
+main .campaign_d_4 .d_wrap .caution dl dt {
+  line-height: 2;
+}
+main .campaign_d_4 .d_wrap .caution dl dd {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  list-style: disc;
 }/*# sourceMappingURL=movie.css.map */

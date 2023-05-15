@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>롯데시네마</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-</head>
-<body>
-    <div class="footer_bg">
+<div class="footer_bg">
         <footer>
             <div class="f_t">
                 <img src="./images/logo_footer.gif" alt="LOTTE CINEMA">
@@ -58,6 +44,3 @@
             </div>
         </footer>
     </div>
-    <script src="./script/footer.js"></script>
-</body>
-</html>

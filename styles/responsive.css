@@ -4,8 +4,12 @@
     main {width:100%;}
     footer {width: 100%;}
     header >.nav_m {display: none;}
+    main .campaign_d_2 .movie_wrap .movie a .img_bg span {font-size: 2rem;}
+    main .campaign_d_2 .may .movie_wrap .movie a .img_bg span {font-size: 2rem;}
+    main .campaign_d_2 .june .movie_wrap .movie a .img_bg span {font-size: 2rem;}
 }/*1440*/
 @media screen and (max-width:1024px) {
+    .fix {display:none;}
     /* header */
 header nav {display:none;}
 header .lnb .hamburger {display: inline-block;}
@@ -38,6 +42,20 @@ footer .f_m > .award img:last-child {display: none;}
 .campaign_s_1 .bg_main img {height:650px;}
 .campaign_s_1 .right .right_top .link .span_wrap_2 {display:none;}
 .campaign_s_1 .right .right_top .link .span_wrap_2 {display:none;}
+/* 무비 리스트 */
+main .campaign_d_1 .movie_wrap_1 .movie_ad a img {display: none;}
+main .campaign_d_1 .movie_wrap_1 .movie {width: 110%;}
+main .campaign_d_2 .movie_wrap_5 .movie_ad a img {display: none;}
+main .campaign_d_2 .movie_wrap_5 .movie a:first-of-type {font-size: 0.9rem;}
+main .campaign_d_2 .movie_wrap .movie a .img_bg span {font-size: 1.8rem;}
+main .campaign_d_2 .may .movie_wrap .movie a .img_bg span {font-size: 1.6rem;}
+main .campaign_d_2 .june .movie_wrap .movie a .img_bg span {font-size: 1.6rem;}
+main .campaign_d_1 .movie_wrap_1 {width:87%;}
+main .campaign_d_1 .movie_wrap_4 {width:75%;}
+main .campaign_d_2 .movie_wrap_12 {width:75%;}
+main .campaign_d_2 .june .movie_wrap_16 {width:75%;}
+main .campaign_d_3 .artwork .img_1 .swiper {left: -22%; top:150px;}
+main .campaign_d_3 .artwork .img_1 .swiper .swiper-wrapper .swiper-slide a {width:50%;}
 
 }
 
@@ -48,5 +66,15 @@ footer .f_m > .award img:last-child {display: none;}
     /* 영화 상세페이지 */
     .campaign_s_5 .gwanram .g_left p {font-size: 0.9rem;}
     .campaign_s_6 {width:100%;}
+    /* 무비 리스트 */
+    main .tab a:nth-child(4) {display: none;}
+    main .campaign_d_2 .movie_wrap_5 .movie a:first-of-type {font-size: 0.75rem;}
+main .campaign_d_2 .movie_wrap .movie a .img_bg span {font-size: 1.5rem;}
+main .campaign_d_2 .may .movie_wrap .movie a .img_bg span {font-size: 1.3rem;}
+main .campaign_d_2 .june .movie_wrap .movie a .img_bg span {font-size: 1.3rem;}
+main .campaign_d_3 .artwork .img_1 .swiper {left: -36%; top:150px;}
+main .campaign_d_3 .artwork .img_1 .swiper .swiper-button-next {display: none;}
+main .campaign_d_3 .artwork .img_1 .swiper .swiper-wrapper .swiper-slide a {width:50%;}
+main .campaign_d_4 {display: none;}
 }
 /* 864 */

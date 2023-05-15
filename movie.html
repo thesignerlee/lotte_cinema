@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>롯데시네마 | 영화 홈</title>
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/movie.css">
     <link rel="stylesheet" href="./styles/responsive.css">
     <!-- 파비콘 -->
@@ -18,12 +20,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.css" integrity="sha512-0x5peylECh6ad58xDrjrNZL87Zhg9rdda76yOOHrfGr41VSEwUNmYaK72U/JVScMbSWG1n4Vj35LGmq8ggsqaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <?php include("header.php") ?>
     <main>
         <!-- 캠페인1 -->
         <h1>영화</h1>
-        <div class="tab">
+        <div class="tab_m">
             <a href="#" class="active">현재상영작</a>
             <a href="#">상영예정작</a>
+            <a href="#">예술전</a>
             <a href="#">국립극장</a>
         </div>
         <!-- 현재 상영작 -->
@@ -31,8 +35,8 @@
             <h2>현재상영작</h2>
             <div class="movie_wrap movie_wrap_1">
                 <div class="movie">
-                    <a href="#">1위</a>
-                    <a href="#">
+                    <a href="./sub_movie_detail.html">1위</a>
+                    <a href="./sub_movie_detail.html">
                         <img src="./images/movie/19776_101_1.jpg" alt="">
                         <div class="img_bg">
                             <span>1</span>
@@ -281,11 +285,11 @@
                     <a href="#">빠른 예매</a>
                 </div>
             </div>
+            <div class="bnr bnr_1">
+                <a href="#"><img src="./images/later/bnr_00.png" alt=""></a>
+            </div>
         </div>
         <!-- 현재상영/끝 -->
-        <div class="bnr bnr_1">
-            <a href="#"><img src="./images/later/bnr_00.png" alt=""></a>
-        </div>
         <!-- 상영예정작 시작 -->
         <div class="campaign_d campaign_d_2">
             <h2>상영예정작</h2>
@@ -1058,7 +1062,7 @@
                     <span>감성을 적시는</span>
                     <span>아트 & 컬쳐</span>
                     <a href="#">아르떼 바로가기</a>
-                    <div class="swiper swiper1">
+                    <div class="swiper swiperd_1">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide slide_d_3_1">
                                 <a href="#">
@@ -1121,6 +1125,8 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="swiper-button-next"><img src="./images/next.png" alt=""></div>
+                        <div class="swiper-button-prev"><img src="./images/previous.png" alt=""></div>
                     </div>
                 </div>
                 <div class="img img_2">
@@ -1140,11 +1146,11 @@
                     </div>
                 </div>
             </div>
+            <div class="bnr bnr_2">
+                <a href="#"><img src="./images/later/0427_980x240.png" alt=""></a>
+            </div>
         </div>
         <!-- 예술전 끝 -->
-        <div class="bnr bnr_2">
-            <a href="#"><img src="./images/later/0427_980x240.png" alt=""></a>
-        </div>
         <!-- 배너2 끝 -->
         <div class="campaign_d campaign_d_4">
             <h2>국립극장</h2>
@@ -1168,18 +1174,16 @@
                                 <dd>대전센트럴, 광주, 전주, 동성로, 부산본점, 센텀시티, 울산</dd>
                             </dl>
                         </div>
-                        <div class="mid">
+                        <div class="right">
                             <p>상영일시</p>
                             <span>매주 목요일 14:00, 일요일 16:00</span>
                             <span>개봉 후 첫번째 화요일에 한해 20:00 상영</span>
-                        </div>
-                        <div class="right`">
                             <p>관람 요금</p>
                             <span>정상 요금</span>
                         </div>
                     </div>
                     <div class="span_info">
-                        <p>유의 사항</p>
+                        <p>※유의 사항</p>
                         <span>롯데시네마 이벤트 페이지에서 상영작 별로 진행되는 이벤트를확인해주세요!</span>
                         <span>일부 상영작은 위 기재된 영화관 중 일부 영화관에서만상영예정입니다.</span>
                         <span>영화관별 상영 일시는 사전 고지 없이 변경될 수 있습니다.</span>
@@ -1187,7 +1191,7 @@
                 </div>
                 <div class="swiper swiperd_4">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide slide_g1">
+                        <div class="swiper-slide slide_g1 slide_g">
                             <img src="./images/gookrip/image_01.jpg" alt="">
                             <div class="info_wrap">
                                 <h1>&lt;가무악칠채&gt;</h1>
@@ -1229,7 +1233,7 @@
                                 <p class="alert">(※ 일부 영화관의 영화 시작시간은사전 고지 없이 변경될 수 있습니다.)</p>
                             </div>
                         </div>
-                        <div class="swiper-slide slide_g2">
+                        <div class="swiper-slide slide_g2 slide_g">
                             <img src="./images/gookrip/image_02.jpg" alt="">
                             <div class="info_wrap">
                                 <h1>&lt;변강쇠 점 찍고 옹녀&gt;</h1>
@@ -1274,7 +1278,7 @@
                                 <p class="alert">(※ 일부 영화관의 영화 시작시간은사전 고지 없이 변경될 수 있습니다.)</p>
                             </div>
                         </div>
-                        <div class="swiper-slide slide_g3">
+                        <div class="swiper-slide slide_g3 slide_g">
                             <img src="./images/gookrip/image_03.jpg" alt="">
                             <div class="info_wrap">
                                 <h1>&lt;천년의 노래, 리버스&gt;</h1>
@@ -1328,20 +1332,25 @@
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-button-next"><img src="./images/next_b.png" alt=""></div>
+                    <div class="swiper-button-prev"><img src="./images/previous_b.png" alt=""></div>
                 </div>
                 <div class="caution">
                     <p>2022년 ‘가장 가까운 국립극장 X 롯데시네마’ 상영작 관람 시 국립극장 레퍼토리 시즌 2022년 상반기 공연 예매 10%할인 제공</p>
                     <dl>
                         <dt>[유의사항]</dt>
-                        <dd>국립극장 티켓 수령 시 2022년에 관람한 ‘가장 가까운 국립극장 X 롯데시네마’ 상영작 관람 티켓 실물을 제시해 주시기 바랍니다.(미지참 시 차액 지불)</dd>
-                        <dd>상영작 1편당 1개 공연 할인 적용됩니다.</dd>
-                        <dd>2021~2022 국립극장 레퍼토리 시즌 상반기(22.1.1 ~ 6.30) 공연 중 상설공연, NT Live+, 해외 초청작, 공동주최 공연은 할인에서 제외됩니다.</dd>
-                        <dd>해당 할인 관련 자세한 사항은 국립극장 고객센터 측으로 문의주시기 바랍니다.</dd>
+                        <dd>· 국립극장 티켓 수령 시 2022년에 관람한 ‘가장 가까운 국립극장 X 롯데시네마’ 상영작 관람 티켓 실물을<br> 제시해 주시기 바랍니다.(미지참 시 차액 지불)</dd>
+                        <dd>· 상영작 1편당 1개 공연 할인 적용됩니다.</dd>
+                        <dd>· 2021~2022 국립극장 레퍼토리 시즌 상반기(22.1.1 ~ 6.30) 공연 중 상설공연, NT Live+, 해외 초청작,<br> 공동주최 공연은 할인에서 제외됩니다.</dd>
+                        <dd>· 해당 할인 관련 자세한 사항은 국립극장 고객센터 측으로 문의주시기 바랍니다.</dd>
                     </dl>
                 </div>
             </div>
         </div>
     </main>
+    <?php include("footer.php") ?>
+    <script src="./script/header.js"></script>
+    <script src="./script/footer.js"></script>
     <script src="./script/movie.js"></script>
 </body>
 </html>

@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>롯데시네마 | 영화상세</title>
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/detail.css">
     <link rel="stylesheet" href="./styles/responsive.css">
     <!-- 파비콘 -->
@@ -19,6 +21,7 @@
 </head>
 <body>
     <main>
+        <?php include("header.php") ?>
         <!-- 소개 -->
         <div class="campaign_s campaign_s_1 main_page">
             <div class="left">
@@ -334,6 +337,9 @@
             </li></ul>
         </div>
     </main>
+    <?php include("footer.php") ?>
+    <script src="./script/header.js"></script>
+    <script src="./script/footer.js"></script>
     <script src="./script/detail.js"></script>
 </body>
 </html>

@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>롯데시네마 | 로그인</title>
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/login.css">
     <link rel="stylesheet" href="./styles/responsive.css">
     <!-- 파비콘 -->
@@ -15,6 +17,7 @@
     <link rel="icon" href="./images/favicon/img_ci_01.png" type="/x-icon">
 </head>
 <body>
+    <?php include("header.php") ?>
     <main>
         <!-- 회원 -->
         <div class="login">
@@ -105,7 +108,9 @@
             <a href="#" class="hongbo"><img src="./images/hongbo.jpg" alt=""></a>
         </div>
     </main>
-
+    <?php include("footer.php") ?>
+    <script src="./script/header.js"></script>
+    <script src="./script/footer.js"></script>
     <script src="./script/login.js"></script>
 </body>
 </html>

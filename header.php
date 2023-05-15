@@ -1,19 +1,5 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>롯데시네마</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-</head>
-<body>
-    <a href="#" class="fix"><img src="./images/movie/19751_101_1.jpg" alt=""></a>
-    <div class="header_bg">
+<a href="#" class="fix"><img src="./images/movie/19751_101_1.jpg" alt=""></a>
+<div class="header_bg">
         <header>
             <h1><a href="#"><img src="./images/lotte_logo_r.png" alt="LOTTE CINEMA"></a></h1>
             <nav>
@@ -145,6 +131,3 @@
             </div>
         </header>
     </div>
-    <script src="./script/header.js"></script>
-</body>
-</html>
